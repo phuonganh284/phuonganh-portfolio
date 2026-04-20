@@ -4,21 +4,198 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name | Portfolio</title>
+    <title>Anh Nguyen Portfolio</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Your CSS -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
 
 <body>
-
+    <script src="script.js"> </script>
     <header>
-        <h1>Your Name</h1>
-        <p>Computer Science Student</p>
+        <a href="#" class="logo"><span>Anh Nguyễn</span> </a>
+        <ul class="nav-links">
+            <li>
+                <a href="#about"> About</a>
+            </li>
+            <li>
+                <a href="#education"> Education</a>
+            </li>
+            <li>
+                <a href="#projects"> Projects</a>
+            </li>
+            <li>
+                <a href="#contact"> Contacts </a>
+            </li>
+        </ul>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <button class="visit-btn">Visit GitHub </button>
     </header>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <p>Coming soon...</p>
+    <section id="about" class="about">
+        <div class="about-container">
+            <img src="image.png" alt="profile-pic">
+
+            <div class="info-box">
+
+                <div class="text">
+                    <h3> Hi, I'm</h3>
+                    <h1> Nguyễn Hoàng Phương Anh</h1>
+                    <span> Software Intern</span>
+                    <p>
+                        I'm a Computer Science student at HCMUT with a strong interest
+                        in backend systems, AI, and real-world applications.
+                    </p>
+
+                    <p>
+                        I enjoy building systems that connect software with real devices,
+                        as well as exploring intelligent solutions through machine learning.
+                    </p>
+
+                    <p>
+                        I'm currently working toward becoming a FullStack developer with
+                        a focus on data and AI driven applications, and I'm also interested
+                        in game development as a creative direction.
+                    </p>
+                </div>
+
+                <div class="btn-group">
+                    <div class="btn">Download CV</div>
+                    <div class="btn">Contact</div>
+                </div>
+
+                <div class="socials">
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+
+            </div>
+        </div>
     </section>
+
+    <section id="education" class="education">
+        <h2 class="section-title"> Education</h2>
+        <div class="education-info">
+            <div class="grid">
+
+                <div class="grid-card">
+                    <i class="fa-solid fa-school"></i>
+                    <span>HCMC University of Technology (HCMUT)</span>
+                    <h3>Bachelor of Computer Science (2023 - Present)</h3>
+                    <p>
+                        GPA: 3.1/4
+                    </p>
+                    <p>
+                        Highest semester GPA: 3.9/4
+                    </p>
+                    <p>
+                        Relevant Coursework: Operating Systems, Data Structures & Algorithms, Computer Networks,
+                        Software Engineering, Principles of Programming Language, Introduction to AI
+                    </p>
+                    <p>
+                        Focus: Backend Systems, Artificial Intelligence, IoT Applications
+                    </p>
+                </div>
+
+
+            </div>
+
+            <img src="image.png" alt="profile-pic">
+        </div>
+
+
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="section-title"> Projects</h2>
+        <div class="projects-grid">
+
+            <div class="projects-card">
+                <img src="project-1.png" alt="smart-home-iot">
+                <h3> Smart Home IoT System</h3>
+                <p> Team size: 3 </p>
+                <p> Role: Leader - Backend & IoT Developer </p>
+                <div class="btn-group">
+                    <div class="btn">GitHub Repo</div>
+                </div>
+            </div>
+
+            <div class="projects-card">
+                <img src="project-2.jpg" alt="library-management">
+                <h3> Library System</h3>
+                <p> Team size: 6</p>
+                <p> Role: FullStack Developer </p>
+                <div class="btn-group">
+                    <div class="btn">GitHub Repo</div>
+                </div>
+            </div>
+
+            <div class="projects-card">
+                <img src="project-3.png" alt="chess-AI">
+                <h3> Chess AI agent</h3>
+                <p> jgrgfj</p>
+                <div class="btn-group">
+                    <div class="btn">GitHub Repo</div>
+                </div>
+            </div>
+
+            <div class="projects-card">
+                <img src="project-4.png" alt="library-management">
+                <h3> Library Management System</h3>
+                <p> jgrgfj</p>
+                <div class="btn-group">
+                    <div class="btn">GitHub Repo</div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="contact" class="contact">
+        <div class="input-box">
+
+            <h2 class="section-title">
+                Contact Me
+            </h2>
+
+            <div class="input">
+                <input type="text" placeholder="anh.nguyenhoang78@hcmut.edu.vn">
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+
+            <div class="btn">
+                Submit
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <ul>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contacts">Contacts</a>
+            </li>
+        </ul>
+        <p class="copyright">© All Rights Reserved | Anh Nguyen</p>
+    </footer>
 
 </body>
 
