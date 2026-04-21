@@ -20,7 +20,7 @@
 <body>
     <script src="script.js"> </script>
     <header>
-        <a href="#" class="logo"><span>Anh Nguyễn</span> </a>
+        <a href="#" class="logo"><span>Anh Nguyen</span> </a>
         <ul class="nav-links">
             <li>
                 <a href="#about"> About</a>
@@ -37,44 +37,45 @@
         </ul>
 
         <i class="fa-solid fa-bars" id="menu-icon"></i>
-        <button class="visit-btn">Visit GitHub </button>
+        <a href="https://github.com/phuonganh284" target="_blank" class="visit-btn">
+            Visit GitHub
+        </a>
     </header>
 
     <section id="about" class="about">
         <div class="about-container">
-            <img src="image.png" alt="profile-pic">
+            <img src="image.jpg" alt="profile-pic">
 
             <div class="info-box">
 
                 <div class="text">
                     <h3> Hi, I'm</h3>
-                    <h1> Nguyễn Hoàng Phương Anh</h1>
+                    <h1> Nguyen Hoang Phuong Anh</h1>
                     <span> Software Intern</span>
-                    <p>
-                        I'm a Computer Science student at HCMUT with a strong interest
-                        in backend systems, AI, and real-world applications.
-                    </p>
+                    <ul class="about-details">
+                        <li>I'm a Computer Science student at HCMUT with a strong interest
+                            in backend systems, AI, and real-world applications.</li>
+                        <li>I enjoy building systems that connect software with real devices,
+                            as well as exploring intelligent solutions through machine learning.</li>
+                        <li>I'm currently working toward becoming a FullStack developer with
+                            a focus on data and AI driven applications, and I'm also interested
+                            in game development as a creative direction.</li>
+                    </ul>
 
-                    <p>
-                        I enjoy building systems that connect software with real devices,
-                        as well as exploring intelligent solutions through machine learning.
-                    </p>
-
-                    <p>
-                        I'm currently working toward becoming a FullStack developer with
-                        a focus on data and AI driven applications, and I'm also interested
-                        in game development as a creative direction.
-                    </p>
                 </div>
 
                 <div class="btn-group">
-                    <div class="btn">Download CV</div>
-                    <div class="btn">Contact</div>
+                    <a href="cv.pdf" download class="btn">Download CV</a>
+                    <a href="#contact" class="btn">Contact</a>
                 </div>
 
                 <div class="socials">
-                    <i class="fa-brands fa-github"></i>
-                    <i class="fa-brands fa-linkedin"></i>
+                    <a href="https://github.com/phuonganh284" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/anh-nguy%E1%BB%85n-9a175a3b9/" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
                 </div>
 
             </div>
@@ -91,24 +92,25 @@
                     <span>HCMC University of Technology (HCMUT)</span>
                     <h3>Bachelor of Computer Science (2023 - Present)</h3>
                     <p>
-                        GPA: 3.1/4
+                        ★ <strong> GPA:</strong> 3.1 / 4.0
                     </p>
                     <p>
-                        Highest semester GPA: 3.9/4
+                        ★ <strong> Highest semester GPA:</strong> 3.9 / 4.0
                     </p>
                     <p>
-                        Relevant Coursework: Operating Systems, Data Structures & Algorithms, Computer Networks,
+                        ★ <strong>Relevant Coursework:</strong> Operating Systems, Data Structures & Algorithms,
+                        Computer Networks,
                         Software Engineering, Principles of Programming Language, Introduction to AI
                     </p>
                     <p>
-                        Focus: Backend Systems, Artificial Intelligence, IoT Applications
+                        ★ <strong>Focus:</strong> Backend Systems, Artificial Intelligence, IoT Applications
                     </p>
                 </div>
 
 
             </div>
 
-            <img src="image.png" alt="profile-pic">
+            <img src="image.jpg" alt="profile-pic">
         </div>
 
 
@@ -121,38 +123,90 @@
             <div class="projects-card">
                 <img src="project-1.png" alt="smart-home-iot">
                 <h3> Smart Home IoT System</h3>
-                <p> Team size: 3 </p>
-                <p> Role: Leader - Backend & IoT Developer </p>
+                <p> <strong>Team size:</strong> 3 </p>
+                <p> <strong>Role:</strong> Leader - Backend & IoT Developer </p>
+                <ul class="project-details">
+                    <li>★ Developed a smart home system for real-time monitoring and remote device control via a mobile
+                        application</li>
+                    <li>★ Led backend development and integrated ESP32 devices through Adafruit IO and a custom gateway
+                    </li>
+                    <li>★ Designed REST APIs for communication between mobile clients and IoT devices</li>
+                    <li>★ Handled 193 requests/sec with 0% error under 80 concurrent connections (Autocannon test)</li>
+                </ul>
+                <p>
+                    <strong>Tech:</strong> Express.js, Python, REST API, ESP32, Adafruit IO, JavaScript, PostgreSQL,
+                    Supabase | Frontend: Expo
+                    React Native
+                </p>
                 <div class="btn-group">
-                    <div class="btn">GitHub Repo</div>
+                    <a href="https://github.com/phuonganh284/SmartHome_IOT" target="_blank" class="btn">
+                        GitHub Repo
+                    </a>
                 </div>
             </div>
 
             <div class="projects-card">
                 <img src="project-2.jpg" alt="library-management">
-                <h3> Library System</h3>
-                <p> Team size: 6</p>
-                <p> Role: FullStack Developer </p>
+                <h3> Library Management System</h3>
+                <p> <strong>Team size:</strong> 6</p>
+                <p> <strong>Role:</strong> FullStack Developer </p>
+                <ul class="project-details">
+                    <li>★ Developed a FullStack library management system for book inventory and user operations</li>
+                    <li>★ Implemented CRUD features and database management</li>
+                    <li>★ Built modern frontend UI using React, Vite, and TailwindCSS</li>
+                    <li>★ Handled 73 requests/sec under 50 concurrent users in stress testing (Autocannon test)</li>
+                </ul>
+                <p>
+                    <strong>Tech:</strong> Express.js, REST API, React, Vite, Tailwind CSS, JavaScript, PostgreSQL,
+                    Supabase
+                </p>
                 <div class="btn-group">
-                    <div class="btn">GitHub Repo</div>
+                    <a href="https://github.com/phuonganh284/Smart-Library" target="_blank" class="btn">
+                        GitHub Repo
+                    </a>
                 </div>
             </div>
 
             <div class="projects-card">
                 <img src="project-3.png" alt="chess-AI">
                 <h3> Chess AI agent</h3>
-                <p> jgrgfj</p>
+                <p> <strong>Team size:</strong> 4 </p>
+                <p> <strong>Role:</strong> Leader - Game Engine & AI developer </p>
+                <ul class="project-details">
+                    <li>★ Developed a chess engine with GUI using Python and Tkinter</li>
+                    <li>★ Built an AI agent using Minimax with Alpha-Beta pruning</li>
+                    <li>★ Designed evaluation heuristics for decision making</li>
+                    <li>★ Achieved consistent wins against a random agent at depth ≥ 2 (avg move time: 174.79ms)</li>
+                </ul>
+                <p>
+                    <strong>Tech:</strong> Python, Tkinter, Minimax Alpha-Beta pruning
+                </p>
                 <div class="btn-group">
-                    <div class="btn">GitHub Repo</div>
+                    <a href="https://github.com/phuonganh284/Chess_AI" target="_blank" class="btn">
+                        GitHub Repo
+                    </a>
                 </div>
             </div>
 
             <div class="projects-card">
                 <img src="project-4.png" alt="library-management">
-                <h3> Library Management System</h3>
-                <p> jgrgfj</p>
+                <h3> Minesweeper AI Solver</h3>
+                <p> <strong>Team size:</strong> 4 </p>
+
+                <p> <strong>Role:</strong> Leader - Minesweeper Solver Developer </p>
+                <ul class="project-details">
+                    <li>★ Developed a puzzle engine with GUI using Python and Tkinter</li>
+                    <li>★ Implemented solvers for Minesweeper and Sudoku using DFS and A*</li>
+                    <li>★ Designed custom heuristic for A* to improve search efficiency</li>
+                    <li>★ A* achieved ~20–25% fewer steps than DFS with higher runtime and memory cost</li>
+                </ul>
+                <p>
+                    <strong>Tech:</strong> Python, Tkinter, DFS, A*, Heuristics
+                </p>
                 <div class="btn-group">
-                    <div class="btn">GitHub Repo</div>
+                    <a href="https://github.com/phuonganh284/Puzzle-Solver" target="_blank" class="btn">
+                        GitHub Repo
+                    </a>
                 </div>
             </div>
 
@@ -168,14 +222,30 @@
                 Contact Me
             </h2>
 
-            <div class="input">
-                <input type="text" placeholder="anh.nguyenhoang78@hcmut.edu.vn">
+            <p>
                 <i class="fa-solid fa-envelope"></i>
-            </div>
+                <a href="mailto:anh.nguyenhoang78@hcmut.edu.vn">
+                    anh.nguyenhoang78@hcmut.edu.vn
+                </a>
+            </p>
+            <p>
+                <i class="fa-solid fa-phone"></i>
+                (+84)919903010
+            </p>
+            <p>
+                <i class="fa-brands fa-github"></i>
+                <a href="https://github.com/phuonganh284" target="_blank">
+                    github.com/phuonganh284
+                </a>
+            </p>
 
-            <div class="btn">
-                Submit
-            </div>
+            <p>
+                <i class="fa-brands fa-linkedin"></i>
+                <a href="https://www.linkedin.com/in/anh-nguy%E1%BB%85n-9a175a3b9/" target="_blank">
+                    linkedin.com/in/anh-nguy%E1%BB%85n-9a175a3b9
+                </a>
+            </p>
+
         </div>
     </section>
 
